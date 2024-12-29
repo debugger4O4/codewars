@@ -9,6 +9,7 @@ public class Base91 {
     private static final int BASE = 91;
     private static final byte[] TO_BASE_91 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~\"'".getBytes(US_ASCII);
     private static final byte[] FROM_BASE_91 = new byte[256];
+
     static {
         assert BASE == TO_BASE_91.length;
         for (int i = 0; i < 256; ++i) {
@@ -23,12 +24,12 @@ public class Base91 {
         var out = new ByteArrayOutputStream();
         int queue = 0;
         int bitCount = 0;
-        for (byte b: data.getBytes(US_ASCII)) {
+        for (byte b : data.getBytes(US_ASCII)) {
             queue |= b << bitCount;
             bitCount += 8;
             if (bitCount > 13) {
                 int encoded = queue & 0x1fff;
-                if (encoded >= BASE-4) {
+                if (encoded >= BASE - 4) {
                     queue >>= 13;
                     bitCount -= 13;
                 } else {
@@ -54,13 +55,13 @@ public class Base91 {
         int bitCount = 0;
         int value = -1;
         var out = new ByteArrayOutputStream();
-        for (byte b: data.getBytes(US_ASCII)) {
+        for (byte b : data.getBytes(US_ASCII)) {
             if (value == -1) {
                 value = FROM_BASE_91[b];
             } else {
                 value += FROM_BASE_91[b] * BASE;
                 queue |= value << bitCount;
-                bitCount += (value & 0x1fff) >= BASE-4 ? 13 : 14;
+                bitCount += (value & 0x1fff) >= BASE - 4 ? 13 : 14;
                 do {
                     out.write((byte) queue);
                     queue >>= 8;
