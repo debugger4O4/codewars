@@ -6,13 +6,16 @@ public class Solution {
         StringBuilder result = new StringBuilder();
         String length = num + "";
         for (int i = 0; i < length.length(); i++) {
-            if (i < result.length() - 1) {
+            if (i > 0) {
                 if (
                         Integer.parseInt(length.charAt(i) + "") % 2 != 0
-                        && Integer.parseInt(length.charAt(i + 1) + "") % 2 != 0
+                                && Integer.parseInt(length.charAt(i - 1) + "") % 2 != 0
                 ) {
-                    result.append("-");
+                    result.append("-").append(length.charAt(i));
+                } else {
+                    result.append(length.charAt(i));
                 }
+            } else {
                 result.append(length.charAt(i));
             }
         }
