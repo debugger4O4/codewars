@@ -16,7 +16,9 @@ public class Proteins {
 
     public void addAminoAcids(long proteinId, String... aminoAcids) {
         Set<AminoAcid> set = proteins.computeIfAbsent(proteinId, id -> EnumSet.noneOf(AminoAcid.class));
-        for (String aminoAcid: aminoAcids) set.add(AminoAcid.valueOf(aminoAcid));
+        for (String aminoAcid: aminoAcids) {
+            set.add(AminoAcid.valueOf(aminoAcid));
+        }
     }
 
     public boolean containsAminoAcid(long proteinId, String aminoAcid) {
