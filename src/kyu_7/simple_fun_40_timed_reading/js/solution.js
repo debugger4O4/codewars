@@ -1,0 +1,1 @@
+const timedReading = (n, s) => (s.match(/\b\w+\b/g) || []).filter(e => e.length <= n).length;
