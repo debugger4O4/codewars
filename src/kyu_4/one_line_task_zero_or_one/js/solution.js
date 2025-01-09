@@ -1,0 +1,1 @@
+zeroOrOne=(n,s)=>s[0].map((e,i)=>s.map(r=>r[i]).sort()[n>>1])
