@@ -1,0 +1,1 @@
+zero_or_one=lambda n,s:[sum(l)>n//2 for l in zip(*s)]
