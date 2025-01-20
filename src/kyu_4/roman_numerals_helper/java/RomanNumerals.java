@@ -21,15 +21,15 @@ public class RomanNumerals {
 
     public static int fromRoman(String romanNumeral) {
         Map<Character, Integer> mapToNumeral = fillMapToNumeral();
-        int number = 0;
+        int result = 0;
         for (int i = 0; i < romanNumeral.length(); i++) {
             if (i + 1 == romanNumeral.length() || mapToNumeral.get(romanNumeral.charAt(i)) >= mapToNumeral.get(romanNumeral.charAt(i + 1))) {
-                number += mapToNumeral.get(romanNumeral.charAt(i));
+                result += mapToNumeral.get(romanNumeral.charAt(i));
             } else {
-                number -= mapToNumeral.get(romanNumeral.charAt(i));
+                result -= mapToNumeral.get(romanNumeral.charAt(i));
             }
         }
-        return number;
+        return result;
     }
 
     public static TreeMap<Integer, String> fillMapToRoman() {
