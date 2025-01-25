@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/57cf50a7eca2603de0000090/train/java
+
 package kyu_7.move_10.java;
 
 public class MoveTen {
