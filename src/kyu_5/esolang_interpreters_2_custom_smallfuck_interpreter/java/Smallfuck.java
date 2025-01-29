@@ -1,11 +1,5 @@
 // https://www.codewars.com/kata/58678d29dbca9a68d80000d7/train/java
 
-//> - Move pointer to the right (by 1 cell)
-//< - Move pointer to the left (by 1 cell)
-//* - Flip the bit at the current cell
-//[ - Jump past matching ] if value at current cell is 0
-//] - Jump back to matching [ (if value at current cell is nonzero)
-
 package kyu_5.esolang_interpreters_2_custom_smallfuck_interpreter.java;
 
 import java.util.Arrays;
