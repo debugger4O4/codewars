@@ -11,8 +11,12 @@ public class Runes {
 
     public static int solveExpression(final String expression) {
         for (int i = 0; i < 10; i++) {
-            if (expression.contains("" + i)) continue;
-            if (isTrue(expression.replace("?", "" + i))) return i;
+            if (expression.contains("" + i)) {
+                continue;
+            }
+            if (isTrue(expression.replace("?", "" + i))) {
+                return i;
+            }
         }
         return -1;
     }
@@ -21,8 +25,9 @@ public class Runes {
         final Matcher matcher = pattern.matcher(expr);
         if (matcher.matches()) {
             final String s = matcher.group(1), b = matcher.group(3), c = matcher.group(4);
-            if (s.matches("-*0.+") || b.matches("-*0.+") || c.matches("-*0.+"))
+            if (s.matches("-*0.+") || b.matches("-*0.+") || c.matches("-*0.+")) {
                 return false;
+            }
             final int ai = Integer.parseInt(s), bi = Integer.parseInt(b), ci = Integer.parseInt(c);
             switch (matcher.group(2)) {
                 case "+" -> {
