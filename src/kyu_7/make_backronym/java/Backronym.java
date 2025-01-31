@@ -2,9 +2,9 @@
 
 package kyu_7.make_backronym.java;
 
-//import java.util.Map;
-//import java.util.stream.Collectors;
-//
+import java.util.Map;
+import java.util.stream.Collectors;
+
 //public class Backronym {
 //    private static final Map<String, String> dictionary = Preload.dictionary;
 //    public static String makeBackronym(String acronym) {
