@@ -24,7 +24,8 @@ public class Solution {
             while (!maxDeq.isEmpty() && a[maxDeq.peekLast()] < a[i]) {
                 maxDeq.pollLast();
             }
-            minDeq.offerLast(i); maxDeq.offerLast(i);
+            minDeq.offerLast(i);
+            maxDeq.offerLast(i);
             currentSum += a[i];
             if (i >= x - 1) {
                 long avg = currentSum * (x - 1);
