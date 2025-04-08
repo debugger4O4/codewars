@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56c04261c3fcf33f2d000534/train/csharp
+
 using System;
 
 public class Magnets
