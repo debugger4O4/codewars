@@ -2,7 +2,6 @@ package kyu_1.mine_sweepe.java;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.runners.JUnit4;
 
 public class MineSweeperTests {
     /* Data structure for one test:
