@@ -8,25 +8,26 @@ public class MinimumRookDistance {
 
     private final static Map<Integer, Integer> memo = new HashMap<>();
 
-    private static int search(int i, int j, int[][] pawns, int captures) {
-        int key = i * 15 + j + captures * 1000;
+    private static int search(int x, int y, int[][] pawns, int captures) {
+        int key = x * 15 + y + captures * 1000;
         if (memo.containsKey(key)) {
             return memo.get(key);
         }
-        int len = pawns.length;
-        if (captures == (1 << len) - 1) {
+        int length = pawns.length;
+        if (captures == (1 << length) - 1) {
             return 0;
         }
-        int res = Integer.MAX_VALUE;
-        for (int p = 0; p < len; p++) {
-            if (((1 << p) & captures) != 0) {
+        int result = Integer.MAX_VALUE;
+        for (int i = 0; i < length; i++) {
+            if (((1 << i) & captures) != 0) {
                 continue;
             }
-            int u = pawns[p][0], v = pawns[p][1];
-            res = Math.min(res, Math.abs(i - u) + Math.abs(j - v) + search(u, v, pawns, captures | (1 << p)));
+            int a = pawns[i][0];
+            int b = pawns[i][1];
+            result = Math.min(result, Math.abs(x - a) + Math.abs(y - b) + search(a, b, pawns, captures | (1 << i)));
         }
-        memo.put(key, res);
-        return res;
+        memo.put(key, result);
+        return result;
     }
 
     public static int calculateMinRookDistance(int[][] pawns, int[] rook) {
