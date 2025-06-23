@@ -1,0 +1,7 @@
+jw = JurassicWord()
+test.describe("Examples")
+test.assert_equals(jw.lunch_time("_CVvvvVC}>"), "A T-Rex is eating a dead dino.")
+test.assert_equals(jw.lunch_time("_CvvvvvC}>"), "A velociraptor is eating a dead dino.")
+test.assert_equals(jw.lunch_time("iiiuuVuuiii"), "A triceratops is eating flowers.")
+test.assert_equals(jw.lunch_time("|||uuVuu|||"), "Something is eating leaves.")
+test.assert_equals(jw.lunch_time("_CVvVvVC}>"), "Something is eating a dead dino.")
