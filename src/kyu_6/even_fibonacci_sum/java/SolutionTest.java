@@ -7,14 +7,14 @@ class SolutionTest {
 
     @Test
     void fixedTests() {
-//        assertEquals(Kata.fibonacci(2147483647), 1485607536);
-//        assertEquals(Kata.fibonacci(1000000000), 350704366);
-//        assertEquals(Kata.fibonacci(100000000), 82790070);
-//        assertEquals(Kata.fibonacci(1000000), 1089154);
-//        assertEquals(Kata.fibonacci(1000), 798);
-//        assertEquals(Kata.fibonacci(100), 44);
-//        assertEquals(Kata.fibonacci(5), 2);
-//        assertEquals(Kata.fibonacci(8), 2);
+        assertEquals(Kata.fibonacci(2147483647), 1485607536);
+        assertEquals(Kata.fibonacci(1000000000), 350704366);
+        assertEquals(Kata.fibonacci(100000000), 82790070);
+        assertEquals(Kata.fibonacci(1000000), 1089154);
+        assertEquals(Kata.fibonacci(1000), 798);
+        assertEquals(Kata.fibonacci(100), 44);
+        assertEquals(Kata.fibonacci(5), 2);
+        assertEquals(Kata.fibonacci(8), 2);
         assertEquals(Kata.fibonacci(10), 10);
         assertEquals(Kata.fibonacci(1), 0);
     }
