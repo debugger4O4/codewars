@@ -24,7 +24,7 @@ public class Solution {
         }
 
         int sum = 0;
-        for (var future : futures) {
+        for (Future<Integer> future : futures) {
             try {
                 sum += future.get();
             } catch (InterruptedException | ExecutionException e) {
