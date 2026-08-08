@@ -1,7 +1,7 @@
 //package kyu_4.square_into_squares_protect_trees.groovy;
 //
-//import static org.junit.Assert.*;
-//import org.junit.Test;
+//import static kyu_4.bagels.kotlin.org.junit.Assert.*;
+//import kyu_4.bagels.kotlin.org.junit.Test;
 //
 //public class DecomposeTest {
 //

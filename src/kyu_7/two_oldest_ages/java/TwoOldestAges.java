@@ -1,7 +1,7 @@
 package kyu_7.two_oldest_ages.java;
 
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test;
+//import static kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertArrayEquals;
 //
 //
 //class TwoOldestAges {

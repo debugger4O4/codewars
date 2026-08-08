@@ -1,6 +1,6 @@
 //package kyu_6.change_your_points_of_view.kotlin
 //
-//import org.junit.Test
+//import kyu_4.bagels.kotlin.org.junit.Test
 //import kotlin.test.assertEquals
 //
 //class PointViewTest {

@@ -1,9 +1,9 @@
 package kyu_7.make_backronym.java;
 
-//import static org.junit.jupiter.api.Assertions.assertEquals;
-//import org.junit.jupiter.params.ParameterizedTest;
-//import org.junit.jupiter.params.provider.CsvSource;
-//import org.junit.jupiter.api.DisplayName;
+//import static kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.params.ParameterizedTest;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.params.provider.CsvSource;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.DisplayName;
 //
 //class BackronymExampleTest {
 //    @ParameterizedTest(name = "Testing for \"{0}\"")

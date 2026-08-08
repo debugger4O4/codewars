@@ -12,7 +12,7 @@
 //        assertEquals(exceptionClass, assertFailsWith(exceptionClass, block)::class)
 //    }
 //
-//    @org.junit.Test
+//    @kyu_4.bagels.kotlin.org.junit.Test
 //    fun tests() {
 //        assertFailsWithExact(ArithmeticException::class, ::arithmetic)
 //        assertFailsWithExact(NoSuchElementException::class, ::noSuchElement)

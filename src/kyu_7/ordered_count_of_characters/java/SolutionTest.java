@@ -1,7 +1,7 @@
 //package kyu_7.ordered_count_of_characters.java;
 //
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test;
+//import static kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertEquals;
 //import java.util.*;
 //
 //class SolutionTest {

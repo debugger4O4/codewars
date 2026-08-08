@@ -1,7 +1,7 @@
 //package kyu_6.allocating_hotel_rooms.kotlin
 //
-//import org.junit.jupiter.api.Test
-//import org.junit.jupiter.api.Assertions.assertTrue
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertTrue
 //
 //class RoomAllocationTest {
 //

@@ -1,6 +1,6 @@
 //package kyu_7.freecell_deal_generator.kotlin
 //
-//import org.jetbrains.spek.api.Spek
+//import kyu_4.bagels.kotlin.org.jetbrains.spek.api.Spek
 //import kotlin.test.assertEquals
 //
 //class ExampleTests: Spek({

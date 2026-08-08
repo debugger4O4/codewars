@@ -1,7 +1,7 @@
 //package kyu_5.can_you_get_the_loop.java;
 //
-//import org.junit.Test;
-//import static org.junit.Assert.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.Test;
+//import static kyu_4.bagels.kotlin.org.junit.Assert.assertEquals;
 //
 //public class LoopTest {
 //

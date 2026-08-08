@@ -1,7 +1,7 @@
 //package kyu_7.fizz_buzz.java;
 //
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test;
+//import static kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertArrayEquals;
 //
 //public class FizzBuzzArrayTest {
 //

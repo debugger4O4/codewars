@@ -1,5 +1,6 @@
+package kyu_4.bagels.kotlin
+
 import org.junit.Test
-import org.junit.Assert
 
 class BagelTest {
 	@Test

@@ -1,7 +1,7 @@
 package kyu_7.finding_remainder_without_using_percent_operator.java;
 //
-//import org.junit.Test;
-//import static org.junit.Assert.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.Test;
+//import static kyu_4.bagels.kotlin.org.junit.Assert.assertEquals;
 //
 //public class RemainderFinderTest {
 //    @Test

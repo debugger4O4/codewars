@@ -1,6 +1,6 @@
 package kyu_7.reverse_words;
 
-//import org.junit.platform.commons.util.StringUtils;
+//import kyu_4.bagels.kotlin.org.junit.platform.commons.util.StringUtils;
 
 // Переворачивает каждое слово в предложении
 

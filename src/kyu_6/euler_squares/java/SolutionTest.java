@@ -1,7 +1,7 @@
 package kyu_6.euler_squares.java;
 
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.assertTrue;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test;
+//import static kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertTrue;
 //
 //class SolutionTest {
 //

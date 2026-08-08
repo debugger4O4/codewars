@@ -1,8 +1,8 @@
 //package kyu_6.block_letter_printer.kotlin
 //
-//import org.junit.jupiter.api.DisplayName;
-//import org.junit.jupiter.api.Test;
-//import org.junit.jupiter.api.Assertions.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.DisplayName;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Test;
+//import kyu_4.bagels.kotlin.org.junit.jupiter.api.Assertions.assertEquals;
 //
 //@DisplayName("Testing your solution...")
 //class SolutionTest {

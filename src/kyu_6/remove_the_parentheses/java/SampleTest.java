@@ -1,6 +1,6 @@
 package kyu_6.remove_the_parentheses.java;
 
-//import org.junit.Test;
+//import kyu_4.bagels.kotlin.org.junit.Test;
 //
 //public class SampleTest {
 //    @Test

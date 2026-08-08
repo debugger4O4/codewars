@@ -1,6 +1,6 @@
 package kyu_6.clique_of_three.java;
 
-//import org.junit.Test;
+//import kyu_4.bagels.kotlin.org.junit.Test;
 //
 //
 //public class Clique_Of_Three_Test {

@@ -1,7 +1,7 @@
 package kyu_2.blaine_is_a_pain.java;
 
-//import org.junit.Test;
-//import static org.junit.Assert.assertEquals;
+//import kyu_4.bagels.kotlin.org.junit.Test;
+//import static kyu_4.bagels.kotlin.org.junit.Assert.assertEquals;
 //
 //public class ExampleTest {
 //
